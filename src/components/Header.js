@@ -1,8 +1,9 @@
 import React from "react";
 
-function Header({ blogName }){
+
+function Header({blogName}){
     return(
-        <header>
+        <header name = "underreacted">
             <h1>{blogName}</h1>
         </header>
     )
